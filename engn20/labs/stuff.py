@@ -10,55 +10,64 @@ def d3(v):
 def deviation(measured, theoretical):
     return (measured - theoretical) / theoretical * 100
 
+# e in V
+e1 = 10.04
 
-""""
-print(d1(2.048));
-print(d1(4.08));
-print(d1(6.06));
-print(d1(8.03));
-print(d1(10.04));
-print(d1(12.10));
-"""
+# r in k Ohms
+r1 = .984
+r2 = 2.152
+r3 = 3.259
+r4 = 6.70
+r = [.984, 2.152, 3.259, 6.70]
 
-"""
-print(d2(2.043));
-print(d2(4.04));
-print(d2(6.02));
-print(d2(8.05));
-print(d2(10.03));
-print(d2(12.06));
-"""
+iTh = e1/(r1 + r2 + r3)
+#print(iTh)
 
-"""
-print(d3(2.078));
-print(d3(4.00));
-print(d3(5.98));
-print(d3(8.01));
-print(d3(10.00));
-print(d3(12.07));
-"""
+# in mA
+I_TH = 1.5699765441751368
 
-print(deviation(2.05, 2.083))
-print(deviation(4.17, 4.15))
-print(deviation(6.15, 6.16))
-print(deviation(8.14, 8.17))
-print(deviation(10.22, 10.21))
-print(deviation(12.25, 12.31))
+# in mA
+iA = 1.546
+iB = 1.546
+iC = 1.547
 
-print("\n")
+t_v_r1 = I_TH * r1
+t_v_r2 = I_TH * r2
+t_v_r3 = I_TH * r3
 
-print(deviation(274, 303.57))
-print(deviation(570, 600.3))
-print(deviation(860, 894.5))
-print(deviation(1158, 1200))
-print(deviation(1490, 1451))
-print(deviation(1790, 1755))
 
-print("\n")
 
-print(deviation(63.2, 62.25))
-print(deviation(121.6, 121.95))
-print(deviation(185.3, 182.32))
-print(deviation(246.6, 244.21))
-print(deviation(305.2, 304.88))
-print(deviation(365.6, 367.99))
+T_V_R1 = 1.5448569194683346
+T_V_R2 = 3.3785895230648944
+T_V_R3 = 5.11655355746677
+tv_1 = [T_V_R1, T_V_R2, T_V_R3]
+
+m_v_r1 = 1.547
+m_v_r2 = 3.386
+m_v_r3 = 5.11
+mv_1 = [m_v_r1, m_v_r2, m_v_r3]
+
+
+
+DEV_1 = [0.1387235610403899, 0.21933640901080342, -0.12808538781356146]
+
+r4 = 6.70
+r = [r1, r2, r3, r4]
+r_sum = sum(r)
+vdr = []
+
+e2 = 20
+
+# for ri in r:
+#     vdr.append(e2*(ri/r_sum))
+# print (vdr)
+v_ac = e2*((r1+r2)/r_sum)
+v_b = e2*((r2+r3+r4)/r_sum)
+
+# print(v_ac)
+# print(v_b)
+tv_2 = [1.5028636884306987, 3.2867506681939673, 4.977472317678503, 10.232913325696831, 4.789614356624666, 18.497136311569303]
+
+mv_2 = [1.504, 3.294, 4.986, 10.25, 4.798, 18.53]
+
+DEV_2 = [0.07560975609756189, 0.22056226765798873, 0.17132555998773188, 0.166977611940295, 0.17507971938775274, 0.17766906118404402]
