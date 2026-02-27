@@ -23,95 +23,91 @@ def sum_par(resistances):
         s+= 1/r
     return 1/s
 
-# e in V
-e1 = 8.09
-
-# r in ohms
-r1 = 982
-r2 = 2152
-r3 = 3274
-r4 = 6720
-
-r = [r1, r2, r3, r4]
-
-
-T_V_A = 8.09
-T_V_B = 8.09
-T_V_C = 8.09
-tv_1 = [T_V_A, T_V_B, T_V_C]
-
-M_V_A = 8.08
-M_V_B = 8.09
-M_V_C = 8.08
-
-mv_1 = [M_V_A, M_V_B, M_V_C]
 
 #in ohms
-R_TOT_TH = 674.30
+r1_1 = 986
+r2_1 = 2150
+r3_1 = 4616
+r_1 = [r1_1, r2_1, r3_1]
 
-#in mA
-I_TOT_TH = 12.00
+e_1 = 10.09
 
-# print(e1/r1)
-# print(e1/r2)
-I_R1_TH = 8.24
-I_R2_TH = 3.76
+#in volts
+va_th_1 = 10.09
 
-# print(I_TOT_TH * (R_TOT_TH/r1))    
-# print(I_TOT_TH * (R_TOT_TH/r2))   
-I_R1_TH_CDR = 8.24
-I_R2_TH_CDR = 3.76
-I_TOT_TH_CDR = 12.00
+#print(r1_1 + sum_par([r2_1, r3_1]))
+r_tot_1 = 2452.80
 
-I_R2_M = 8.21
-I_R2_M = 3.67
+#print(e_1/r_tot_1)
+#in A
+i_tot_1 = 0.00411
 
-I_TOT_M = 11.83
+#print(va_th_1 - i_tot_1 * r1_1)
+vb_th_1 = 6.038
+vc_th_1 = 6.038
 
-# print(deviation)
+va_exp_1 = 10.09
+vb_exp_1 = 6.036
+vc_exp_1 = 6.036
 
-e2 = 10.01
+ir1_th_1 = 0.00411
+#print(i_tot_1 * (r3_1 / (r3_1 + r2_1)))
+ir2_th_1 = 0.00280
+#print(i_tot_1 * (r2_1 / (r3_1 + r2_1)))
+ir3_th_1 = 0.00131
 
-# for ri in r:
-#     print(1000*e2/ri)
+i_th_1 = [ir1_th_1, ir2_th_1, ir3_th_1]
 
-# print(deviation(8.21, 8.24))
-# print(deviation(3.67, 3.76))
-# print(deviation(11.83, 12))
+ir1_exp_1 = 0.00411
+ir2_exp_1 = 0.00280
+ir3_exp_1 = 0.00131
 
-I_TH_2 = [10.19, 4.65, 3.06, 1.49, 19.39, 4.55 ]
+i_exp_1 = [ir1_exp_1, ir2_exp_1, ir3_exp_1]
 
-R_TOT_2 = sum_par(r)
+#print(dev_sum(i_exp_1, i_th_1))
 
-# print(1000*e2/R_TOT_2)
+r1_2 = 3255
+r2_2 = 2155
+r3_2 = 4623
+r4_2 = 6830
 
-I_TH_TOT_2 = 19.39
+r_series = 13608
 
-I_TH_IX = 4.55
+e_2 = 20.07
 
-I_M_2 = [10.22, 4.65, 3.06, 1.48, 19.21, 4.56]
+vb_th_2 = 20.07
+vc_th_2 = 20.07
+#print(e_2 - e_2 * (r2_2/r_series))
+vd_th_2 = 16.89
+#print(e_2 * (r4_2/r_series))
+ve_th_2 = 10.07
 
-print(dev_sum(I_M_2, I_TH_2))
+v_th_2 = [vb_th_2, vc_th_2, vd_th_2, ve_th_2]
 
-# DEV_1 = [0.1387235610403899, 0.21933640901080342, -0.12808538781356146]
+vb_exp_2 = 20.05
+vc_exp_2 = 20.05
+vd_exp_2 = 16.87
+ve_exp_2 = 10.05
 
-# r4 = 6.70
-# r = [r1, r2, r3, r4]
-# r_sum = sum(r)
-# vdr = []
+v_exp_2 = [vb_exp_2, vc_exp_2, vd_exp_2, ve_exp_2]
 
-# e2 = 20
+#print(dev_sum(v_exp_2, v_th_2))
 
-# # for ri in r:
-# #     vdr.append(e2*(ri/r_sum))
-# # print (vdr)
-# v_ac = e2*((r1+r2)/r_sum)
-# v_b = e2*((r2+r3+r4)/r_sum)
+#print(sum_par([r1_2, r2_2+r3_2+r4_2]))
+r_tot_2 = 2626.7
+#print(e_2/r_tot_2)
+is_th_2 = 0.00764
+#print(is_th_2 * (r_tot_2/r1_2))
+# print(is_th_2 * (r_tot_2/r_series))
+ir1_th_2 = 0.00617
+ir2_th_2 = 0.00147
 
-# # print(v_ac)
-# # print(v_b)
-# tv_2 = [1.5028636884306987, 3.2867506681939673, 4.977472317678503, 10.232913325696831, 4.789614356624666, 18.497136311569303]
+i_th_2 = [is_th_2, ir1_th_2, ir2_th_2]
 
-# mv_2 = [1.504, 3.294, 4.986, 10.25, 4.798, 18.53]
+is_exp_2 = 0.00765
+ir1_exp_2 = 0.0062
+ir2_exp_2 = 0.00148
 
-# DEV_2 = [0.07560975609756189, 0.22056226765798873, 0.17132555998773188, 0.166977611940295, 0.17507971938775274, 0.17766906118404402]
+i_exp_2 = [is_exp_2, ir1_exp_2, ir2_exp_2]
+
+print (dev_sum(i_exp_2, i_th_2))
