@@ -1,0 +1,709 @@
+[
+  {
+    "id": 2016372,
+    "name": "6.6   Quiz - Political Parties ",
+    "due date": "2026-03-09",
+    "status": "unsubmitted",
+    "course": "american gov"
+  },
+  {
+    "id": 2016374,
+    "name": "6.5  Media Discussion",
+    "due date": "2026-03-09",
+    "status": "unsubmitted",
+    "course": "american gov"
+  },
+  {
+    "id": 2016373,
+    "name": "6.4  Discussion Forum - Money in Elections",
+    "due date": "2026-03-09",
+    "status": "submitted",
+    "course": "american gov"
+  },
+  {
+    "id": 1956616,
+    "name": "Lab #G: Fiore - DC - 11: Thevenin's Theorem",
+    "due date": "2026-03-19",
+    "status": "unsubmitted",
+    "course": "circuits [lab]"
+  },
+  {
+    "id": 1956619,
+    "name": "Lab #H: Fiore - DC - 12: Max Power Transfer",
+    "due date": "2026-03-26",
+    "status": "unsubmitted",
+    "course": "circuits [lab]"
+  },
+  {
+    "id": 1956621,
+    "name": "Lab #I: Fiore - DC - 15: Capacitors and Inductors",
+    "due date": "2026-04-09",
+    "status": "unsubmitted",
+    "course": "circuits [lab]"
+  },
+  {
+    "id": 1956632,
+    "name": "Read AC: Ch 1, 2, and 3",
+    "due date": "2026-04-16",
+    "status": "unsubmitted",
+    "course": "circuits [lab]"
+  },
+  {
+    "id": 1956623,
+    "name": "Lab #J:  Fiore - AC - 1 & 2: Intro to RL and RC Circuits / Phasor and Vectors",
+    "due date": "2026-04-16",
+    "status": "unsubmitted",
+    "course": "circuits [lab]"
+  },
+  {
+    "id": 1956625,
+    "name": "Lab #K:  Fiore - AC - 4: Capacitive Reactance",
+    "due date": "2026-04-23",
+    "status": "unsubmitted",
+    "course": "circuits [lab]"
+  },
+  {
+    "id": 1956627,
+    "name": "Lab #L:  Fiore - AC - 5: Inductive Reactance",
+    "due date": "2026-04-30",
+    "status": "unsubmitted",
+    "course": "circuits [lab]"
+  },
+  {
+    "id": 1956629,
+    "name": "Lab #M:  Fiore - AC - 6: Series R, L, C Circuits (w/Sim)",
+    "due date": "2026-05-07",
+    "status": "unsubmitted",
+    "course": "circuits [lab]"
+  },
+  {
+    "id": 1956617,
+    "name": "Lab #G: Pre Lab",
+    "due date": "2026-03-19",
+    "status": "unsubmitted",
+    "course": "circuits [lab]"
+  },
+  {
+    "id": 1956615,
+    "name": "Lab #G Report",
+    "due date": "2026-03-26",
+    "status": "unsubmitted",
+    "course": "circuits [lab]"
+  },
+  {
+    "id": 1956618,
+    "name": "Lab #H Report",
+    "due date": "2026-04-09",
+    "status": "unsubmitted",
+    "course": "circuits [lab]"
+  },
+  {
+    "id": 1956620,
+    "name": "Lab #I Report",
+    "due date": "2026-04-16",
+    "status": "unsubmitted",
+    "course": "circuits [lab]"
+  },
+  {
+    "id": 1956622,
+    "name": "Lab #J Report",
+    "due date": "2026-04-23",
+    "status": "unsubmitted",
+    "course": "circuits [lab]"
+  },
+  {
+    "id": 1956624,
+    "name": "Lab #K Report",
+    "due date": "2026-04-30",
+    "status": "unsubmitted",
+    "course": "circuits [lab]"
+  },
+  {
+    "id": 1956626,
+    "name": "Lab #L Report",
+    "due date": "2026-05-07",
+    "status": "unsubmitted",
+    "course": "circuits [lab]"
+  },
+  {
+    "id": 1956628,
+    "name": "Lab #M Report",
+    "due date": "2026-05-14",
+    "status": "unsubmitted",
+    "course": "circuits [lab]"
+  },
+  {
+    "id": 1956611,
+    "name": "Lab #F.2 Report",
+    "due date": "2026-03-19",
+    "status": "unsubmitted",
+    "course": "circuits [lab]"
+  },
+  {
+    "id": 1956631,
+    "name": "Midterm Exam - Demo & Written",
+    "due date": "2026-03-12",
+    "status": "unsubmitted",
+    "course": "circuits [lab]"
+  },
+  {
+    "id": 1956595,
+    "name": "Final Exam - Demo & Written",
+    "due date": "2026-05-14",
+    "status": "unsubmitted",
+    "course": "circuits [lab]"
+  },
+  {
+    "id": 1995396,
+    "name": "Project 1: Midterm Project",
+    "due date": "2026-03-16",
+    "status": "unsubmitted",
+    "course": "data science"
+  },
+  {
+    "id": 1995399,
+    "name": "Project 2: Final Project",
+    "due date": "2026-05-11",
+    "status": "unsubmitted",
+    "course": "data science"
+  },
+  {
+    "id": 1995395,
+    "name": "Practice Midterm Exam",
+    "due date": "2026-03-21",
+    "status": "unsubmitted",
+    "course": "data science"
+  },
+  {
+    "id": 1995390,
+    "name": "Midterm Exam",
+    "due date": "2026-03-21",
+    "status": "unsubmitted",
+    "course": "data science"
+  },
+  {
+    "id": 1995393,
+    "name": "Practice Final Exam",
+    "due date": "2026-05-16",
+    "status": "unsubmitted",
+    "course": "data science"
+  },
+  {
+    "id": 1995338,
+    "name": "Final Exam",
+    "due date": "2026-05-16",
+    "status": "unsubmitted",
+    "course": "data science"
+  },
+  {
+    "id": 1995356,
+    "name": "Homework 06: Hypothesis Testing",
+    "due date": "2026-03-11",
+    "status": "unsubmitted",
+    "course": "data science"
+  },
+  {
+    "id": 1995358,
+    "name": "Homework 09: Estimation",
+    "due date": "2026-04-08",
+    "status": "unsubmitted",
+    "course": "data science"
+  },
+  {
+    "id": 1995359,
+    "name": "Homework 10: Statistical Theory in Practice",
+    "due date": "2026-04-15",
+    "status": "unsubmitted",
+    "course": "data science"
+  },
+  {
+    "id": 1995362,
+    "name": "Homework 11: Regression",
+    "due date": "2026-04-22",
+    "status": "unsubmitted",
+    "course": "data science"
+  },
+  {
+    "id": 1995363,
+    "name": "Homework 12: Regression Inference",
+    "due date": "2026-04-29",
+    "status": "unsubmitted",
+    "course": "data science"
+  },
+  {
+    "id": 1995364,
+    "name": "Homework 13: Classification",
+    "due date": "2026-05-06",
+    "status": "unsubmitted",
+    "course": "data science"
+  },
+  {
+    "id": 1995376,
+    "name": "Lab 07: A/B Testing",
+    "due date": "2026-03-14",
+    "status": "unsubmitted",
+    "course": "data science"
+  },
+  {
+    "id": 1995378,
+    "name": "Lab 09: Confidence Intervals",
+    "due date": "2026-03-28",
+    "status": "unsubmitted",
+    "course": "data science"
+  },
+  {
+    "id": 1995379,
+    "name": "Lab 10: Sampling Distributions",
+    "due date": "2026-04-11",
+    "status": "unsubmitted",
+    "course": "data science"
+  },
+  {
+    "id": 1995381,
+    "name": "Lab 11: Linear Regression",
+    "due date": "2026-04-18",
+    "status": "unsubmitted",
+    "course": "data science"
+  },
+  {
+    "id": 1995383,
+    "name": "Lab 12: Residuals",
+    "due date": "2026-04-25",
+    "status": "unsubmitted",
+    "course": "data science"
+  },
+  {
+    "id": 1995386,
+    "name": "Lab 13: k-NN Classification",
+    "due date": "2026-05-02",
+    "status": "unsubmitted",
+    "course": "data science"
+  },
+  {
+    "id": 1995388,
+    "name": "Lab 14: Conditional Probability",
+    "due date": "2026-05-09",
+    "status": "unsubmitted",
+    "course": "data science"
+  },
+  {
+    "id": 1995322,
+    "name": "Discussion Worksheet 07: Data-Driven Decisions",
+    "due date": "2026-03-14",
+    "status": "unsubmitted",
+    "course": "data science"
+  },
+  {
+    "id": 1995324,
+    "name": "Discussion Worksheet 09: Interpreting Confidence",
+    "due date": "2026-03-28",
+    "status": "unsubmitted",
+    "course": "data science"
+  },
+  {
+    "id": 1995326,
+    "name": "Discussion Worksheet 10: The Central Limit Theorem",
+    "due date": "2026-04-11",
+    "status": "unsubmitted",
+    "course": "data science"
+  },
+  {
+    "id": 1995330,
+    "name": "Discussion Worksheet 11: Correlation, Regression, and Optimization",
+    "due date": "2026-04-18",
+    "status": "unsubmitted",
+    "course": "data science"
+  },
+  {
+    "id": 1995332,
+    "name": "Discussion Worksheet 12: Residuals and Regression Models",
+    "due date": "2026-04-25",
+    "status": "unsubmitted",
+    "course": "data science"
+  },
+  {
+    "id": 1995334,
+    "name": "Discussion Worksheet 13: Classification Accuracy",
+    "due date": "2026-05-02",
+    "status": "unsubmitted",
+    "course": "data science"
+  },
+  {
+    "id": 1995335,
+    "name": "Discussion Worksheet 14: Conditional Probability",
+    "due date": "2026-05-09",
+    "status": "unsubmitted",
+    "course": "data science"
+  },
+  {
+    "id": 1911334,
+    "name": "PS05B: Mesh (Only) (Ch 8)",
+    "due date": "2026-03-09",
+    "status": "unsubmitted",
+    "course": "circuits"
+  },
+  {
+    "id": 1911335,
+    "name": "PS05C: Nodal (Only) (Ch 8)",
+    "due date": "2026-03-11",
+    "status": "unsubmitted",
+    "course": "circuits"
+  },
+  {
+    "id": 1911336,
+    "name": "PS06: Bridge Networks / Delta-Y [Short PS]",
+    "due date": "2026-03-11",
+    "status": "unsubmitted",
+    "course": "circuits"
+  },
+  {
+    "id": 1911337,
+    "name": "PS07A: Network Theorems - W/O Max Power",
+    "due date": "2026-03-23",
+    "status": "unsubmitted",
+    "course": "circuits"
+  },
+  {
+    "id": 1911338,
+    "name": "PS07B: Network Theorems - Max Power Only",
+    "due date": "2026-03-25",
+    "status": "unsubmitted",
+    "course": "circuits"
+  },
+  {
+    "id": 1911339,
+    "name": "PS08: Caps and First Order",
+    "due date": "2026-04-08",
+    "status": "unsubmitted",
+    "course": "circuits"
+  },
+  {
+    "id": 1911347,
+    "name": "Spring Break",
+    "due date": "2026-03-30",
+    "status": "unsubmitted",
+    "course": "circuits"
+  },
+  {
+    "id": 1911340,
+    "name": "PS09: Inductors and First Order",
+    "due date": "2026-04-15",
+    "status": "unsubmitted",
+    "course": "circuits"
+  },
+  {
+    "id": 1911341,
+    "name": "PS10: Sinusoids / AC",
+    "due date": "2026-04-22",
+    "status": "unsubmitted",
+    "course": "circuits"
+  },
+  {
+    "id": 1911342,
+    "name": "PS11: R,L,C Response to AC / Phasors",
+    "due date": "2026-04-27",
+    "status": "unsubmitted",
+    "course": "circuits"
+  },
+  {
+    "id": 1911343,
+    "name": "PS12: Series AC Circuits",
+    "due date": "2026-05-06",
+    "status": "unsubmitted",
+    "course": "circuits"
+  },
+  {
+    "id": 1911344,
+    "name": "PS13: Parallel AC Circuits",
+    "due date": "2026-05-11",
+    "status": "unsubmitted",
+    "course": "circuits"
+  },
+  {
+    "id": 1911345,
+    "name": "PS14: AC Power",
+    "due date": "2026-05-18",
+    "status": "unsubmitted",
+    "course": "circuits"
+  },
+  {
+    "id": 1911319,
+    "name": "5/7 Check In",
+    "due date": "2026-05-08",
+    "status": "unsubmitted",
+    "course": "circuits"
+  },
+  {
+    "id": 1911324,
+    "name": "Exam 2",
+    "due date": "2026-03-16",
+    "status": "unsubmitted",
+    "course": "circuits"
+  },
+  {
+    "id": 1911325,
+    "name": "Exam 3",
+    "due date": "2026-04-20",
+    "status": "unsubmitted",
+    "course": "circuits"
+  },
+  {
+    "id": 1911326,
+    "name": "Exam 4",
+    "due date": "2026-05-18",
+    "status": "unsubmitted",
+    "course": "circuits"
+  },
+  {
+    "id": 1954932,
+    "name": "Prelab - Fourier Analysis",
+    "due date": "2026-03-11",
+    "status": "unsubmitted",
+    "course": "modern phys [lab]"
+  },
+  {
+    "id": 1954938,
+    "name": "Prelab - Zeeman Effect",
+    "due date": "2026-04-22",
+    "status": "unsubmitted",
+    "course": "modern phys [lab]"
+  },
+  {
+    "id": 1954940,
+    "name": "Prelab - Sodium Spectrum",
+    "due date": "2026-04-29",
+    "status": "unsubmitted",
+    "course": "modern phys [lab]"
+  },
+  {
+    "id": 1954933,
+    "name": "Prelab - Laser Beats",
+    "due date": "2026-04-15",
+    "status": "unsubmitted",
+    "course": "modern phys [lab]"
+  },
+  {
+    "id": 1954936,
+    "name": "Prelab - Laser Sidelight",
+    "due date": "2026-03-25",
+    "status": "unsubmitted",
+    "course": "modern phys [lab]"
+  },
+  {
+    "id": 1954937,
+    "name": "Prelab - Longitudinal Modes",
+    "due date": "2026-04-08",
+    "status": "unsubmitted",
+    "course": "modern phys [lab]"
+  },
+  {
+    "id": 1967396,
+    "name": "07 - Graded Discussion - Taqueria revisited",
+    "due date": "2026-03-09",
+    "status": "unsubmitted",
+    "course": "c++"
+  },
+  {
+    "id": 1967395,
+    "name": "08 - Graded Discussion - C-strings",
+    "due date": "2026-03-16",
+    "status": "unsubmitted",
+    "course": "c++"
+  },
+  {
+    "id": 1967394,
+    "name": "09 - Graded Discussion - Taqueria with structs",
+    "due date": "2026-03-23",
+    "status": "unsubmitted",
+    "course": "c++"
+  },
+  {
+    "id": 1967393,
+    "name": "10 - Graded Discussion - Rectangle class",
+    "due date": "2026-04-06",
+    "status": "unsubmitted",
+    "course": "c++"
+  },
+  {
+    "id": 1967392,
+    "name": "11 - Graded Discussion - Rectangle improved",
+    "due date": "2026-04-13",
+    "status": "unsubmitted",
+    "course": "c++"
+  },
+  {
+    "id": 1967391,
+    "name": "13 - Graded Discussion - Overloaded operators and aggregation",
+    "due date": "2026-04-27",
+    "status": "unsubmitted",
+    "course": "c++"
+  },
+  {
+    "id": 1967390,
+    "name": "14 - Graded Discussion - Inheritance and Polymorphism",
+    "due date": "2026-05-04",
+    "status": "unsubmitted",
+    "course": "c++"
+  },
+  {
+    "id": 1967389,
+    "name": "15 - Graded Discussion - Poker Tournament",
+    "due date": "2026-05-11",
+    "status": "unsubmitted",
+    "course": "c++"
+  },
+  {
+    "id": 1967414,
+    "name": "Assignment 7 - Pointer Tasks / The League with DMA",
+    "due date": "2026-03-10",
+    "status": "unsubmitted",
+    "course": "c++"
+  },
+  {
+    "id": 1967415,
+    "name": "Assignment 8 - C-strings",
+    "due date": "2026-03-17",
+    "status": "unsubmitted",
+    "course": "c++"
+  },
+  {
+    "id": 1967416,
+    "name": "Assignment 9 - The League with Structs",
+    "due date": "2026-03-24",
+    "status": "unsubmitted",
+    "course": "c++"
+  },
+  {
+    "id": 1967405,
+    "name": "Assignment 10 - Circle Class",
+    "due date": "2026-04-07",
+    "status": "unsubmitted",
+    "course": "c++"
+  },
+  {
+    "id": 1967406,
+    "name": "Assignment 11 - Number guesser class",
+    "due date": "2026-04-14",
+    "status": "unsubmitted",
+    "course": "c++"
+  },
+  {
+    "id": 1967407,
+    "name": "Assignment 13 - IntCollection",
+    "due date": "2026-04-28",
+    "status": "unsubmitted",
+    "course": "c++"
+  },
+  {
+    "id": 1967408,
+    "name": "Assignment 14 - Random Number Guesser and Grid Writer",
+    "due date": "2026-05-05",
+    "status": "unsubmitted",
+    "course": "c++"
+  },
+  {
+    "id": 1967409,
+    "name": "Assignment 15 - IntCollection with vectors",
+    "due date": "2026-05-12",
+    "status": "unsubmitted",
+    "course": "c++"
+  },
+  {
+    "id": 1967422,
+    "name": "Midterm 2",
+    "due date": "2026-04-21",
+    "status": "unsubmitted",
+    "course": "c++"
+  },
+  {
+    "id": 1967419,
+    "name": "Final Exam",
+    "due date": "2026-05-19",
+    "status": "unsubmitted",
+    "course": "c++"
+  },
+  {
+    "id": 1967417,
+    "name": "Extra Credit - Attending a Computer Science related event",
+    "due date": "2026-05-12",
+    "status": "unsubmitted",
+    "course": "c++"
+  },
+  {
+    "id": 2016960,
+    "name": "Practice Sheet Quiz",
+    "due date": "2026-03-08",
+    "status": "unsubmitted",
+    "course": "waves & therm"
+  },
+  {
+    "id": 2016963,
+    "name": "Worksheet Practice Quiz",
+    "due date": "2026-03-11",
+    "status": "unsubmitted",
+    "course": "waves & therm"
+  },
+  {
+    "id": 1973695,
+    "name": " Worksheet #6",
+    "due date": "2026-03-11",
+    "status": "unsubmitted",
+    "course": "waves & therm"
+  },
+  {
+    "id": 1436661,
+    "name": "Week 6 Discussion",
+    "due date": "2026-03-09",
+    "status": "unsubmitted",
+    "course": "prog structures"
+  },
+  {
+    "id": 1381341,
+    "name": "Sequences",
+    "due date": "2026-03-09",
+    "status": "unsubmitted",
+    "course": "prog structures"
+  },
+  {
+    "id": 3377044,
+    "name": "Quiz 5 (DUE: Sunday, 3/8/26 at 11:59 P.M.) (Remotely Proctored)",
+    "due date": "2026-03-09",
+    "status": "unsubmitted",
+    "course": "assembly"
+  },
+  {
+    "id": 3377045,
+    "name": "DBP 5: Week 6,  3/2/26 - 3/8/26 (Initial Reply DUE: Sunday, 3/8/26 at 11:59 P.M., Two Peer Replies DUE: Tuesday, 3/10/26 at 11:59 P.M., Late Pass Deadline: Sunday, 3/15/26 at 11:59 P.M.)",
+    "due date": "2026-03-09",
+    "status": "unsubmitted",
+    "course": "assembly"
+  },
+  {
+    "id": 3368091,
+    "name": "Programming Assignment 3 (DUE: Sunday, 3/8/26 at 11:59 P.M., Late Pass Deadline: Sunday, 3/15/26 at 11:59 P.M.)",
+    "due date": "2026-03-09",
+    "status": "unsubmitted",
+    "course": "assembly"
+  },
+  {
+    "id": 3373710,
+    "name": "Programming Assignment 4 (DUE: Sunday, 3/15/26 at 11:59 P.M., Late Pass Deadline: Sunday, 3/29/26 at 11:59 P.M.)",
+    "due date": "2026-03-16",
+    "status": "unsubmitted",
+    "course": "assembly"
+  },
+  {
+    "id": 3377046,
+    "name": "Programming Assignment 5 (DUE: Sunday, 3/29/26 at 11:59 P.M., Late Pass Deadline: Sunday, 4/5/26 at 11:59 P.M.)",
+    "due date": "2026-03-30",
+    "status": "unsubmitted",
+    "course": "assembly"
+  },
+  {
+    "id": 3377271,
+    "name": "Test 1 (AVAILABLE: Thursday, 3/12/26 at 5:00 A.M., DUE: Friday, 3/13/26 at 11:59 P.M.) (Remotely Proctored)",
+    "due date": "2026-03-14",
+    "status": "unsubmitted",
+    "course": "assembly"
+  }
+]
