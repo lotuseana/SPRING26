@@ -55,11 +55,11 @@ def get_canvas_data(KEY, URL):
         if 'due_at' in ra and ra['due_at'] is not None and datetime.fromisoformat(ra['due_at']) > datetime.now(timezone.utc):
             assignments.append({'id' : ra['id'],
                                 'name': ra['name'],
-                                'due date' : str(datetime.fromisoformat(ra['due_at'])) ,
+                                'due date' : ra['due_at'] ,
                                 'status' : ra['submission']['workflow_state'],
                                 'course' : ALLOWED_COURSES.get(ra['course_id'])})
-            print(f"actual: {ra['due_at']}")
-            print(f"converted: {str(datetime.fromisoformat(ra['due_at']))}")
+            # print(f"actual: {ra['due_at']}")
+            # print(f"converted: {str(datetime.fromisoformat(ra['due_at']))}")
             
 
     return [assignments, grades]
@@ -76,7 +76,7 @@ def get_notion_assignments():
             "filter": {
                 "property": "due date",
                 "date": {
-                    "on_or_after": str(datetime.now(timezone.utc))
+                    "on_or_after": str(datetime.now(timezone.utc) - timedelta(days=7))
                 }
             }
         }
@@ -162,13 +162,16 @@ def main():
     notion_assignments = get_notion_assignments()
     notion_grades = get_notion_grades()
 
+    pprint(canvas_assignments[0])
+    pprint(notion_assignments[0])
+
     #pprint(notion_grades)
 
     for g in canvas_grades:
         for check_g in notion_grades:
             if g['course_id'] == check_g['course_id'] and g['grade'] != check_g['grade']:
                 update_page(g, check_g['page_id'], data_type="grade")
-                print(f"{g['course']} grade changed from {check_g['grade']} to {g['grade']}")
+                #print(f"{g['course']} grade changed from {check_g['grade']} to {g['grade']}")
                 break
 
     to_add = []
@@ -179,7 +182,7 @@ def main():
         for check_a in notion_assignments:
             if a['id'] == check_a['id']:
                 found = True
-                if a['status'] != check_a['status'] or a['due date'] != check_a['due date']:
+                if a['status'] != check_a['status'] or datetime.fromisoformat(a['due date']) != datetime.fromisoformat(check_a['due date']):
                     to_update.append([a, check_a['page_id']])
                 break
         if not found:
