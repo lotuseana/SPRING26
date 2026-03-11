@@ -25,7 +25,7 @@ def sum_par(resistances):
 
 
 #in ohms
-r1_1 = 986
+r1_1 = 986  
 r2_1 = 2150
 r3_1 = 4616
 r_1 = [r1_1, r2_1, r3_1]
@@ -110,4 +110,6 @@ ir2_exp_2 = 0.00148
 
 i_exp_2 = [is_exp_2, ir1_exp_2, ir2_exp_2]
 
-print (dev_sum(i_exp_2, i_th_2))
+print (sum_par([3.255, 10, 13.608]))
+
+#print (dev_sum(i_exp_2, i_th_2))

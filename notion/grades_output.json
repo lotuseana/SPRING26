@@ -1,0 +1,57 @@
+[
+    {
+        "course_id": 70146,
+        "course": "modern phys [lab]",
+        "grade": 0.9440000000000001
+    },
+    {
+        "course_id": 70482,
+        "course": "waves & therm",
+        "grade": 0.8412999999999999
+    },
+    {
+        "course_id": 70487,
+        "course": "waves & therm [lab]",
+        "grade": 1.0
+    },
+    {
+        "course_id": 70490,
+        "course": "modern phys",
+        "grade": 0.9645999999999999
+    },
+    {
+        "course_id": 70766,
+        "course": "c++",
+        "grade": 0.985
+    },
+    {
+        "course_id": 71332,
+        "course": "data science",
+        "grade": 0.9908
+    },
+    {
+        "course_id": 70430,
+        "course": "circuits [lab]",
+        "grade": 0.9823000000000001
+    },
+    {
+        "course_id": 70469,
+        "course": "circuits",
+        "grade": 0.7894
+    },
+    {
+        "course_id": 70607,
+        "course": "american gov",
+        "grade": 0.84
+    },
+    {
+        "course_id": 50595,
+        "course": "prog structures",
+        "grade": 0.9517
+    },
+    {
+        "course_id": 120856,
+        "course": "assembly",
+        "grade": 1
+    }
+]
