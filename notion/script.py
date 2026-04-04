@@ -4,6 +4,7 @@ import json
 from pprint import pprint
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from time import time
 
 
 CANVAS_URLS = config.URLS
@@ -52,7 +53,7 @@ def get_canvas_data(KEY, URL):
 
     assignments = []
     for ra in raw_assignments:
-        if 'due_at' in ra and ra['due_at'] is not None and datetime.fromisoformat(ra['due_at']) > datetime.now(timezone.utc):
+        if 'due_at' in ra and ra['due_at'] is not None and datetime.fromisoformat(ra['due_at']) > datetime.now(timezone.utc) - timedelta(days=7):
             assignments.append({'id' : ra['id'],
                                 'name': ra['name'],
                                 'due date' : ra['due_at'] ,
@@ -148,6 +149,9 @@ def update_page(data, page_id, data_type="assignment"):
 
 
 def main():
+    print("starting")
+    start_time = time()
+
     canvas_assignments = []
     canvas_grades = []
 
@@ -162,8 +166,8 @@ def main():
     notion_assignments = get_notion_assignments()
     notion_grades = get_notion_grades()
 
-    pprint(canvas_assignments[0])
-    pprint(notion_assignments[0])
+    # pprint(canvas_assignments[0])
+    # pprint(notion_assignments[0])
 
     #pprint(notion_grades)
 
@@ -182,8 +186,10 @@ def main():
         for check_a in notion_assignments:
             if a['id'] == check_a['id']:
                 found = True
-                if a['status'] != check_a['status'] or datetime.fromisoformat(a['due date']) != datetime.fromisoformat(check_a['due date']):
+                if str(a['status']) != str(check_a['status']) or datetime.fromisoformat(a['due date']).date() != datetime.fromisoformat(check_a['due date']).date():
                     to_update.append([a, check_a['page_id']])
+                    pprint(a)
+                    pprint(check_a)
                 break
         if not found:
             to_add.append(a)
@@ -198,6 +204,8 @@ def main():
         update_page(a[0], a[1])
 
     print("done!")
+    end_time = time()
+    print(f"elapsed {end_time - start_time}")
 
 
 main()
